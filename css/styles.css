@@ -85,7 +85,7 @@ header {
 	}
 
 	.name h2 {
-		overflow-wrap: normal;
+		white-space: nowrap;
 		font-size: 17px;
 	}
 
