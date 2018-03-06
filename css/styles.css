@@ -7,12 +7,13 @@
 	max-width: 1100px
 }
 
-img {
+img,
+video,
+embed {
 	max-width: 100%;
 	max-height: 100%;
 }
 
-/**/
 .resume {
 	height: 100%;
 	width: 100%;
@@ -21,7 +22,7 @@ img {
 	font-family: Julius Sans One, sans-serif;
 }
 
-header {
+.info {
 	width: 100%;
 	border-bottom: 5px solid #7d97ad;
 }
@@ -93,13 +94,19 @@ header {
 	padding-left: 25px;
 }
 
-@media screen and (min-width: 385px) and (max-width: 679px) {
+@media screen and (min-width: 450px) and (max-width: 678px) {
+	.name h1 { 
+		font-size: 35px; 
+	}
+}
+
+@media screen and (max-width: 679px) {
 	.resume {
 		padding: 10px;
 	}
 
 	.name h1 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.name h2 {
